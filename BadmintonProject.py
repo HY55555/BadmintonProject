@@ -3,9 +3,9 @@ import streamlit as st
 import pandas as pd
 
 # DB Mgmt
-# import sqlite3 
-# conn = sqlite3.connect('data/world.sqlite')
-# c = conn.cursor()
+import sqlite3 
+conn = sqlite3.connect('data/world.sqlite')
+c = conn.cursor()
 
 
 # Fxn Make Execution
