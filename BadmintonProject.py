@@ -13,7 +13,7 @@ def main():
 		st.subheader("HomePage")
 
 		# Columns/Layout
-		col1,col2 = st.beta_columns(2)
+		col1,col2 = st.columns(2)
 
 		with col1:
 			with st.form(key='query_form'):
@@ -28,10 +28,6 @@ def main():
 
 	else:
 		st.subheader("About")
-
-
-
-
 
 if __name__ == '__main__':
 	main()
